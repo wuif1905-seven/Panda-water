@@ -1,0 +1,227 @@
+@import "base.css";
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    box-sizing: border-box;
+    color: #4ebbfe;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.28rem;
+}
+header > .iconfont {
+    padding-left: 0.1rem;
+    color: #4ebbfe;
+}
+.section{
+    height: auto;
+    width: 100%;
+    padding:0.24rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+.section .imgs{
+    height: 0.8rem;
+    width: 1.08rem;
+    margin-bottom: 0.3rem;
+}
+.section >p{
+    font-size: 0.26rem;
+    font-weight: normal;
+    line-height: 0.4rem;
+    color: #4f5b64;
+    margin-bottom: 0.15rem;
+    padding: 0 0.2rem;
+    position: relative;
+}
+.section>p>i{
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.03rem;
+    background: #34da87;
+}
+.section>p>span{
+    position: absolute;
+    right: 0;
+    top: 0.2rem;
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.03rem;
+    background: #34da87;
+}
+.section>p>b{
+    padding: 0 0.05rem;
+    color: #32d796;
+}
+.section>p>strong{
+    color: #ffd541;
+    padding: 0 0.05rem;
+}
+.section>span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.3rem 0;
+}
+.section>span>a{
+    display: block;
+    width: 1.96rem;
+    height: 0.6rem;
+    margin: 0 0.3rem;
+    font-size: 0.2rem;
+    line-height: 0.6rem;
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    border-radius: 0.3rem;
+}
+.section>span>a:last-child{
+    background: #3bacfe;
+}
+.shop{
+    width:100%;
+    height: auto;
+}
+.shop>h1{
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+    color: #34da87;
+    padding-left: 0.2rem;
+    margin-top: 0.25rem;
+    position: relative;
+}
+.shop>h1>i{
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #34da87;
+    position: absolute;
+    left: 0;
+    top: 0.18rem;
+}
+h1>b{
+    color: #4f5b64;
+}
+.shop .shopping{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shopping>li{
+    height: auto;
+    width:3.24rem;
+    margin-top: 0.56rem;
+    position: relative;
+}
+.photo{
+    margin-bottom: 0.4rem;
+}
+.shopping>li>.photo>span{
+    width: 0.54rem;
+    height: 0.3rem;
+    font-size: 0.22rem;
+    color: #FFFFFF;
+    line-height: 0.3rem;
+    text-align: center;
+    border-radius: 0.15rem;
+    background: #37e06f;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.shopping>li>.photo>img{
+    width: 1.52rem;
+    height: 1.6rem;
+    margin: 0.15rem 0 0 0.72rem;
+}
+.shopping>li>span{
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.7;
+}
+.shopping>li>span>b{
+    font-size: 0.28rem;
+    color: #fbb548;
+    padding-left: 0.4rem;
+}
+.shopping>li>p{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.5;
+}
+.shopping .score{
+    margin-top: 0.16rem;
+    margin-bottom: 0.1rem;
+    border-top: solid 0.01rem #D0C7D2;
+
+}
+.shopping .score>span{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+.shopping .score strong{
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+
+.shopping .score>span{
+    position: relative;
+    padding-left: 0.2rem;
+}
+.shopping .score>span:first-child{
+    margin-right: 0.4rem;
+}
+.shopping .score>span>i{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #36a8fe;
+    position: absolute;
+    left: 0;
+    top: 0.16rem;
+}
+.shopping .tag{
+    font-size: 0.2rem;
+    margin-top: 0.28rem;
+    color: #36a8fe;
+}
+.shopping .tag>span{
+    background:#e7f6ff;
+    padding: 0.1rem;
+    border-radius: 0.20rem;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    height: 1.18rem;
+    width: 100%;
+    padding: 0.22rem 0.22rem;
+    background: #f1f9ff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.bottom a{
+    height:100%;
+    width: 0.7rem;
+    padding-top: 0.1rem;
+    font-size: 0.24rem;
+    color: #59c3fe;;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+.bottom >a.hot{
+    opacity: 1;
+}
+.bottom >a>img{
+   width: 0.5rem;
+    height: 0.5rem;
+}
