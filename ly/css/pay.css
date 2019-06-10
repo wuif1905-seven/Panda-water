@@ -1,0 +1,136 @@
+@import "base.css";
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    box-sizing: border-box;
+    color: #4ebbfe;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.28rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header > .iconfont {
+    padding-left: 0.1rem;
+    color: #4ebbfe;
+}
+.section{
+    padding: 0.24rem;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.section>p{
+    margin: 0.6rem 1.88rem;
+    font-size: 0.34rem;
+    color: #4f5b64;
+    line-height: 0.4rem;
+    padding: 0 0.24rem;
+    position: relative;
+}
+.section>p>b{
+    font-size: 0.34rem;
+    color: #32d796;
+}
+.section>p>i{
+    height: 0.05rem;
+    width: 0.1rem;
+    border-radius: 0.03rem;
+    background: #32d796;
+    position: absolute;
+    top: 0.18rem;
+    left: 0;
+}
+.section>p>span{
+    height: 0.05rem;
+    width: 0.1rem;
+    border-radius: 0.03rem;
+    background: #32d796;
+    position: absolute;
+    top: 0.18rem;
+    right: 0;
+}
+.section .wallet{
+    padding-top: 0.6rem;
+    height: 1.06rem;
+    width: auto;
+    border-top: 0.01rem solid #e4e3e3;
+}
+.section>.wallet>a{
+    display: block;
+    height: 1.16rem;
+    width: 1.16rem;
+    float:left;
+}
+.wallet >span{
+    font-size: 0.28rem;
+    color:#47505f;
+    margin-left: 0.28rem;
+    float: left;
+    line-height: 1.06rem;
+}
+.wallet >p{
+    padding-right: 0.54rem;
+    font-size: 0.28rem;
+    color: #000000;
+    opacity: 0.7;
+    line-height: 1.06rem;
+    float: right;
+    position: relative;
+}
+.wallet >p>b{
+    font-size: 0.32rem;
+    color: #ff7370;
+}
+.wallet>p>i{
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 50%;
+    background: #36a8fe;
+    position: absolute;
+    right: 0;
+    top: 0.42rem;
+}
+.section .wx{
+    margin-top: 0.4rem;
+    height: 1.06rem;
+    width: auto;
+    position: relative;
+}
+.section .wx>a{
+    display: block;
+    height: 1.16rem;
+    width: 1.16rem;
+    float:left;
+}
+.wx>span{
+    font-size: 0.28rem;
+    color:#47505f;
+    margin-left: 0.28rem;
+    float: left;
+    line-height: 1.06rem;
+}
+.wx>i{
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 50%;
+    background:  #dddddd;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0.42rem;
+}
+.pay{
+    width: 4.54rem;
+    height: 0.6rem;
+    margin: 3.26rem auto;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    line-height: 0.6rem;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+.pay>a{
+    font-size: 0.2rem;
+    color: #ffffff;
+}
