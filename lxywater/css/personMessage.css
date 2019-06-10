@@ -1,0 +1,40 @@
+@import "base.css";
+@import "person.css";
+.ziliao{
+    padding: 0 0.24rem;
+    margin: 0.3rem 0 2rem 0;
+    height: 4.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ziliao ul li{
+    padding: 0.33rem 0 0.33rem 0.26rem;
+    border-bottom: 0.02rem dashed rgba(0,0,0,0.2);
+}
+.ziliao ul li p{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.6);
+}
+.ziliao ul li p span{
+    float: right;
+    color: #fbb548;
+}
+.ziliao ul li i{
+    margin-right: 0.5rem;
+    font-style: normal;
+    float: right;
+}
+.baocun{
+    margin: 0 1.48rem 0 1.48rem;
+    padding: 0.2rem 0;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%);
+}
+.baocun p{
+    text-align: center;
+}

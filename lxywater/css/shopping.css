@@ -1,0 +1,263 @@
+@import " base.css";
+header{
+    height: 0.88rem;
+    width: 100%;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+    position: fixed;
+    z-index: 888;
+    top: 0;
+}
+header ul {
+    display:flex;
+    justify-content: space-between;
+}
+header ul li {
+    width: 1.7rem;
+    height: 0.88rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul li p{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: block;
+}
+header li a .iconfont{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+/*购物车为空时*/
+.kongkong{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 13rem;
+}
+.kongkong img:first-child{
+    height: 2.3rem;
+    width: 2.1rem;
+
+}
+.kongkong img:nth-of-type(2){
+    width: 1.96rem;
+    height: 0.6rem;
+    margin-top: 0.32rem;
+}
+.kongkong p{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.35rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.4;
+    margin-top: 0.52rem;
+}
+/*购物车满的时候*/
+.manman{
+
+}
+
+
+/*开始购物篮的设计*/
+.lan{
+ margin-top: 0.88rem;
+    margin-bottom: 1rem;
+
+}
+.lan .quan{
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #e7f6ff;
+    display: inline-block;
+    margin-top: 0.6rem;
+    margin-right: 0.24rem;
+    border-radius: 50%;
+    float: left;
+}
+.lan .hot{
+    background: #37e06f;
+    overflow: hidden;
+}
+.lan li{
+    height: 2.5rem;
+    padding: 0.48rem 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.lan li div{
+    width: 1.74rem;
+    height: 1.74rem;
+
+    float: left;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem 0
+    rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lan li div img{
+    width: 1.19rem;
+    height: 1.25rem;
+
+}
+.lan h1{
+    display: inline-block;
+    font-size: 0.24rem;
+    letter-spacing: 0.13rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    float: left;
+}
+.lan h2{
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    flex: 1;
+
+}
+.lan p img{
+     width: 0.34rem;
+     height: 0.34rem;
+    display: inline-block;
+ }
+
+.lan p i {
+    display: block;
+    float: right;
+}
+.lan p b{
+    font-size: 0.26rem;
+    letter-spacing: 0;
+    color: #36a8fe;
+    font-style: normal;
+}
+
+.lan p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+}
+.qian{
+    margin-top: 0.2rem;
+    font-size: 0.26rem;
+    letter-spacing: 0;
+    color: #8e9397;
+    opacity: 0.8;
+    display: block;
+}
+
+/*全选按钮*/
+.quanxuan{
+    position: fixed;
+    left: 0;
+    bottom: 1.58rem;
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+.xuanze{
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #e7f6ff;
+    float: left;
+    border-radius: 50%;
+    margin: 0 0.22rem;
+}
+.quanxuan span{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+}
+
+/*底部设计*/
+.bottom{
+   position: fixed;
+    left:0 ;
+    bottom: 0;
+    height: 1.08rem;
+    width: 100%;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+
+}
+
+.bottom p:first-child{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.13rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    padding-left: 0.12rem;
+    position: relative;
+}
+.bottom p:first-child:before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.26rem;
+    display: block;
+}
+.bottom p:nth-child(2){
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    padding-left: 0.12rem;
+    position: relative;
+}
+.bottom p:nth-child(2):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+    display: block;
+}
+.bottom p:nth-child(3){
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+.bottom img{
+    width: 3.8rem;
+    height: 1rem;
+    float: right;
+}
+.bottom span b{
+    font-size: 0.36rem;
+    color: #36a8fe;
+}

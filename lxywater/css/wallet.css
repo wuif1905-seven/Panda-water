@@ -1,0 +1,48 @@
+@import "base.css";
+@import "person.css";
+.content{
+    margin-top: 0.2rem;
+    padding-top: 1rem;
+    height: 1.5rem;
+    background: rgba(0,0,0,0.6);
+}
+.content ul{
+    display: flex;
+    justify-content: space-around;
+}
+.content ul li p{
+    color: white;
+    margin-top: 0.05rem;
+    text-align: center;
+}
+.content ul li i{
+    font-style: normal;
+    color: white;
+}
+.content ul li i a{
+    color: white;
+}
+.taken{
+    margin-top: 0.2rem;
+
+}
+.taken .jilu{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.1);
+}
+.taken .jilu ul{
+    display: flex;
+    justify-content: space-around;
+}
+/*.taken .jilu ul li.hot{*/
+/*    border-bottom: 0.01rem solid;*/
+/*}*/
+.yhq{
+    margin-top: 0.1rem;
+    width: 100%;
+    height: auto;
+}
+.yhq img{
+    width: 100%;
+}

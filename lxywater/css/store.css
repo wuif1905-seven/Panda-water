@@ -1,0 +1,244 @@
+@import "base.css";
+/*头部的设计开始*/
+header{
+    height: 0.88rem;
+    width: 100%;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+}
+header ul {
+    display:flex;
+    justify-content: space-between;
+}
+header ul li {
+    width: 1.7rem;
+    height: 0.88rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul li p{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: block;
+}
+header li a .iconfont{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+/*头部结束  搜索开始*/
+.search{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+}
+.search .sousuo{
+    width: 7.12rem;
+    height: 0.6rem;
+    background-color: rgba(242,250,255,0.58);
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+    line-height: 0.88rem;
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+}
+.search .sousuo p{
+    width: 0.79rem;
+    height: 0.44rem;
+    background-color: #a4e0bd;
+    border-radius: 0.21rem;
+    margin: 0.08rem 0.05rem;
+}
+.search .sousuo p img{
+    width: 0.38rem;
+    height: 0.36rem;
+    box-shadow: 0 0.03rem 0.1rem 0
+    rgba(127, 211, 161, 0.45);
+    opacity: 0.71;
+    margin: 0.06rem 0.25rem;
+}
+/*3个选择按钮*/
+.xuanze{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.xuanze a{
+    width: 1.33rem;
+    height: 0.52rem;
+    background-color: rgba(242,250,255,0.58);
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.26rem;
+    font-size: 0.2rem;
+    color: #3bacfe;
+    display: inline-block;
+    text-align: center;
+    line-height: 0.52rem;
+}
+/*热门推荐复用 */
+.evaluate{
+    display: flex;
+    justify-content: space-between;
+    height: 1.08rem;
+    align-items: center;
+}
+
+.evaluate span p:nth-child(1) {
+    font-size: 0.32rem;
+    letter-spacing: 0.02rem;
+    color: #4f5b64;
+    display: inline-block;
+    padding-left: 0.2rem;
+    position: relative;
+}
+.evaluate span p:first-child:before{
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.18rem;
+}
+.evaluate span p:nth-child(2) {
+    font-size: 0.32rem;
+    letter-spacing: 0.02rem;
+    color: #34da87;
+    display: inline-block;
+}
+.evaluate span:nth-child(2){
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+}
+.evaluate  .iconfont{
+    display: inline-block;
+    font-size: 0.22rem;
+}
+.evaluate .dier p:first-child{
+    color:#35db82;
+}
+.evaluate .dier p:first-child:before{
+    background:#35db82 ;
+}
+/*推荐列表开始*/
+.tuijianli ul{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.tuijianli a{
+    margin-top: 0.2rem;
+}
+.tuijianli li{
+    margin-top: 0.2rem;
+    height: 3.86rem;
+    width: 3.25rem;
+ display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tuijianli li img {
+    width: 1.53rem;
+    height: 1.61rem;
+  margin-left: 0.72rem;
+}
+
+.tuijianli li p {
+    display: inline-block;
+}
+.tuijianli li p:first-child{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.tuijianli li p:nth-child(2){
+    font-size: 0.28rem;
+    color: #fbb548;
+}
+.tuijianli hr{
+    width: 3.19rem;
+    height: 0.02rem;
+    border: solid 0.04rem #000000;
+    opacity: 0.04;
+}
+.frist{
+    position: relative;
+}
+.frist p:nth-child(1):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.14rem;
+}
+.frist p:nth-child(3):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.14rem;
+}
+.frist p:nth-child(1){
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    padding-left: 0.14rem;
+    margin-right: 0.12rem;
+    position: relative;
+}
+.frist p:nth-child(2){
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-right: 0.28rem;
+}
+.frist p:nth-child(3){
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    padding-left: 0.14rem;
+    margin-right: 0.12rem;
+    position: relative;
+}
+.frist p:nth-child(4){
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.tuijianli li .second p{
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    font-size: 0.2rem;
+    margin-right: 0.12rem;
+    display: inline-block;
+    width: 1.21rem;
+    height: 0.35rem;
+    text-align: center;
+    line-height: 0.35rem;
+    background:rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+}

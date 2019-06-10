@@ -1,0 +1,423 @@
+@import "base.css";
+/*头部的设计开始*/
+header{
+    height: 0.88rem;
+    width: 100%;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+header ul {
+    display:flex;
+    justify-content: space-between;
+}
+header ul li {
+    width: 1.7rem;
+    height: 0.88rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul li p{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: block;
+}
+header li a .iconfont{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+nav{
+    margin-top: 0.05rem;
+    width: 100%;
+    height: 6.87rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav img{
+    width: 3.01rem;
+    height: 3.62rem;
+}
+/*开始下辖文本的设计*/
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 1.75rem;
+   justify-content: space-around;
+    padding: 0 0.22rem;
+}
+.content h1{
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.content .shuoming{
+
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.content .shuxing{
+    position: relative;
+}
+.content .shuxing span:nth-child(1){
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fbb548;
+}
+.content .shuxing span:nth-child(2){
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+    letter-spacing: 0.01rem;
+    color: #41b2fc;
+    margin-right: 0.12rem;
+    display: inline-block;
+    width: 1.21rem;
+    height: 0.35rem;
+    text-align: center;
+    background:rgba(65,178,255,0.1);
+    border-radius: 0.18rem;
+}
+.content .shuxing span:nth-child(3){
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+    letter-spacing: 0.01rem;
+    color: #36d681;
+    margin-right: 0.12rem;
+    display: inline-block;
+    width: 1.21rem;
+    height: 0.35rem;
+    text-align: center;
+    background:rgba(54,214,129,0.1);
+    border-radius: 0.18rem;
+
+}
+.content .shuxing .two{
+    display: inline-block;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0;
+    color: #36a8fe;
+    font-size: 0.26rem;
+   padding-left: 0.12rem;
+}
+
+.shuxing .one{
+    display: inline-block;
+    position: absolute;
+    right: 0.8rem;
+    bottom: 0;
+    color: rgba(0,0,0,0.1);
+    font-size: 0.26rem;
+    padding-left: 0.12rem;
+}
+.content .shuxing .one:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #36d681;
+    border-radius: 0.03rem;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+}
+/*领卷这一行*/
+.lingjuan{
+    margin-top: 0.1rem;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    width: 7.01rem;
+    border-top: rgba(216, 223, 227,0.3) 0.01rem solid;
+    border-bottom: rgba(216, 223, 227,0.3) 0.01rem solid;
+
+}
+.lingjuan a{
+    display: flex;
+    height: 0.88rem;
+    width: 100%;
+
+}
+.lingjuan a span{
+    display: flex;
+    align-items: center;
+
+}
+.lingjuan img{
+    width: 0.6rem;
+    height: 0.5rem;
+}
+.lingjuan  div{
+ margin-left: 0.1rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ff844e;
+}
+.lingjuan p{
+    margin-left: 0.1rem;
+    padding: 0.06rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #fbfeff;
+    background-image: linear-gradient(270deg,
+    #ffca3b 0%,
+    #ff933b 100%),
+    linear-gradient(
+            #ffc471,
+            #ffc471);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.16rem 0
+    rgba(255, 142, 81, 0.3);
+    border-radius: 0.2rem;
+}
+/*条件*/
+.tiaojian{
+  padding: 0 0.22rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    border-bottom: rgba(216, 223, 227,0.3) 0.01rem solid;
+}
+.tiaojian span{
+    font-size: 0.24rem;
+    color:#41b2fc;
+    margin-right: 0.48rem;
+    padding-left: 0.14rem;
+    position: relative;
+}
+.tiaojian span:before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    border-radius: 0.03rem;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.14rem;
+}
+/*用户评价*/
+.evaluate{
+    display: flex;
+    justify-content: space-between;
+    height: 1.08rem;
+    align-items: center;
+}
+
+.evaluate span p:nth-child(1) {
+    font-size: 0.32rem;
+    letter-spacing: 0.02rem;
+    color: #41b2fc;
+    display: inline-block;
+    padding-left: 0.2rem;
+    position: relative;
+}
+.evaluate span p:first-child:before{
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    content: "";
+   position: absolute;
+    left: 0;
+    top: 0.18rem;
+}
+.evaluate span p:nth-child(2) {
+    font-size: 0.32rem;
+    letter-spacing: 0.02rem;
+    color: #4f5b64;
+    display: inline-block;
+}
+.evaluate span:nth-child(2){
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+}
+.evaluate  .iconfont{
+    display: inline-block;
+    font-size: 0.22rem;
+}
+.evaluate .dier p:first-child{
+    color:#35db82;
+}
+.evaluate .dier p:first-child:before{
+    background:#35db82 ;
+}
+
+/*评价详情*/
+.yonghu{
+    height: 2.1rem;
+    display: flex;
+}
+.imgback {
+    width: 0.85rem;
+    height: 2.1rem;
+    rgba(223, 223, 223, 0.43);
+    border: solid 0.04rem #fefefe;
+}
+.imgback img{
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+}
+.command{
+    display: flex;
+    flex-direction: column;
+    border-bottom: rgba(216, 223, 227,0.3) 0.01rem solid;
+    height: 2.1rem;
+    flex-grow: 1;
+    overflow: hidden;
+    padding: 0 0.22rem;
+}
+.command span p{
+    float: left;
+}
+.command b.date{
+    float: right;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #9ed5ff;
+}
+.command span h2{
+    width: 1.28rem;
+    height: 0.19rem;
+    position: relative;
+    float: left;
+    margin-left: 0.4rem;
+}
+.command div{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.command span h2 img{
+
+    width: 1.28rem;
+    height: 0.19rem;
+    float: left;
+}
+.command span:first-child{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #cfcfcf;
+}
+.command span:nth-child(2){
+    margin-top: 0.23rem;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.command span:nth-child(3){
+    margin-top: 0.18em;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.command img{
+    width: 1.8rem;
+    height: 1.01rem;
+}
+/*商品列表*/
+.liebiao{
+padding: 0 0.22rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+.liebiao li{
+   
+    width: 2.24rem;
+    height: 2.81rem;
+    padding: 0 0.15rem;
+    box-sizing: border-box;
+
+}
+.back{
+    height: 2.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.liebiao li img{
+    width: 1.37rem;
+    height: 1.37rem;
+}
+.liebiao li p:first-of-type{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.liebiao li p:nth-of-type(2){
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fbb548;
+}
+/*底部的设计*/
+.bottom{
+    height: 0.96rem;
+    width: 100%;
+    padding: 0.22rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+.bottom ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top:0.23rem ;
+}
+.bottom li img {
+    height: 0.5rem;
+    width: 0.5rem;
+}
+.bottom li p{
+    width: 1.96rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+}

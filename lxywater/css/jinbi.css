@@ -1,0 +1,32 @@
+@import "person.css";
+@import "base.css";
+.ym{
+    padding: 0.5rem 0.8rem;
+    width: auto;
+    height: 2rem;
+}
+.ym a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.ym a img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.jbc{
+    position: absolute;
+    bottom: 10.2rem;
+    left: 2.8rem;
+}
+.get{
+    margin: 2rem auto;
+    height: 0.6rem;
+    width: 4rem;
+    text-align: center;
+    line-height: 0.6rem;
+    background: #b7f576;
+    border-radius: 0.1rem;
+    color: #f7f7f7;
+}

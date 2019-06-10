@@ -1,0 +1,200 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    width: 100%;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+}
+header ul {
+    display:flex;
+    justify-content: space-between;
+}
+header ul li {
+    width: 1.7rem;
+    height: 0.88rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul li p{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: block;
+}
+header li a .iconfont{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+/*三个选择框框*/
+nav{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+}
+nav ul{
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+     width: 1.5rem;
+     height: 100%;
+
+    text-align: center;
+    line-height: 0.88rem;
+}
+nav li a {
+    font-size: 0.22rem;
+    color: #3bacfe;
+}
+nav li a  .iconfont{
+    font-size:0.22rem;
+}
+nav .hot a{
+    color: #36d681;
+}
+/*列表的设计*/
+list{
+    position: absolute;
+    width: 100%;
+    top: 2rem;
+    bottom: 0;
+    background: #b752dc;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+}
+.scroll{
+    width: 100%;
+    padding: 0 0.22rem;
+    overflow: hidden;
+}
+.inform{
+    width: 100%;
+    height: 1.8rem;
+    background: #fff;
+    margin-top: 0.6rem;
+}
+.inform a img{
+    width: 1.74rem;
+    height: 1.74rem;
+}
+.inform a{
+    display: flex;
+}
+.inform a h1{
+    color: #000000;
+    opacity: 0.6;
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+}
+.right{
+    flex-grow: 1;
+    margin-left: 0.28rem;
+    display: flex;
+    flex-direction: column;
+}
+.inform p{
+    display: inline-block;
+}
+.frist{
+    position: relative;
+}
+.inform .frist p:nth-child(1):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.14rem;
+}
+.inform .frist p:nth-child(3):before{
+     width: 0.05rem;
+     height: 0.05rem;
+     background-color: #44b5ff;
+     border-radius: 0.03rem;
+     display: inline-block;
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 0.14rem;
+ }
+.inform a .frist p:nth-child(1){
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    padding-left: 0.14rem;
+    margin-right: 0.12rem;
+    position: relative;
+}
+.inform a .frist p:nth-child(2){
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-right: 0.48rem;
+}
+.inform a .frist p:nth-child(3){
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    padding-left: 0.14rem;
+    margin-right: 0.12rem;
+    position: relative;
+}
+.inform a .frist p:nth-child(4){
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.inform a .second p{
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    font-size: 0.2rem;
+    margin-right: 0.12rem;
+    display: inline-block;
+    width: 1.21rem;
+    height: 0.35rem;
+    text-align: center;
+    line-height: 0.35rem;
+    background:rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+}
+.inform a .third {
+    font-size: 0.18rem;
+    margin-top: 0.1rem;
+    position: relative;
+    width: 100%;
+}
+.inform a .third p{
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.14rem;
+    position: relative;
+}
+.inform a h2 {
+    display: inline-block;
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0;
+    color: #fbb548;
+    font-size: 0.26rem;
+}
+.inform a .third p :first-child:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #36d681;
+    border-radius: 0.03rem;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+}
+/*图片的设计*/
+.pic{
+    width: 7.01rem;
+    height: 2.71rem;
+    background: #ff6600;
+    display: block;
+}
