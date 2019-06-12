@@ -6,6 +6,9 @@ header{
     line-height: 0.88rem;
     box-sizing: border-box;
     color: #4ebbfe;
+    position: fixed;
+    left: 0;
+    top: 0;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.28rem;
@@ -16,6 +19,7 @@ header > .iconfont {
     color: #4ebbfe;
 }
 .section{
+    margin-top: 0.88rem;
     padding: 0.24rem;
     width: 100%;
     height: auto;
