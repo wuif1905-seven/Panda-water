@@ -1,0 +1,77 @@
+@import "base.css";
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    box-sizing: border-box;
+    color: #4ebbfe;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.28rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header > .iconfont {
+    padding-left: 0.1rem;
+    color: #4ebbfe;
+}
+.section{
+    height: auto;
+    width: 100%;
+    padding:0.24rem;
+    box-sizing: border-box;
+}
+.section>li{
+    height: auto;
+    width: 100%;
+}
+.section>li>p{
+    line-height: 0.4rem;
+    font-size: 0.26rem;
+    color: #41b2fc;
+    padding-left: 0.3rem;
+    margin-bottom: 0.12rem;
+    position: relative;
+}
+.section>li>p::before{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #41b2fc;
+    position: absolute;
+    left: 0.05rem;
+    top: 0.2rem;
+    border-radius: 0.03rem;
+}
+.section>li>input{
+    width: 100%;
+    height:0.8rem;
+    /*outline: none;*/
+    box-sizing: border-box;
+    padding-left: 0.36rem;
+    margin-bottom: 0.3rem;
+    border:none;
+    outline: 0;
+    background-color: #e7f6ff;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+.section >li> p.ser>a>i{
+    position: absolute;
+    right: 0;
+    color:  #41b2fc;
+    font-size: 0.26rem;
+}
+.store{
+    width: 4.54rem;
+    height: 0.6rem;
+    margin: 0.68rem auto;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    line-height: 0.6rem;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+.store>a{
+    font-size: 0.2rem;
+    color: #ffffff;
+}

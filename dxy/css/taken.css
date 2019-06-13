@@ -1,0 +1,37 @@
+@import "base.css";
+@import "person.css";
+.zhuangtai{
+    height: auto;
+   margin: 0.44rem 1.46rem 0.5rem;
+}
+.zhuangtai ul{
+    display: flex;
+    justify-content: space-between;
+}
+.zhuangtai ul li{
+    width: 1.33rem;
+    height: 0.52rem;
+    background-color: rgba(59,172,254,0.1);
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.26rem;
+    font-size: 0.2rem;
+    color: #3bacfe;
+    text-align: center;
+    line-height: 0.52rem;
+}
+.zhuangtai ul li a{
+    color: #3bacfe;
+}
+.zhuangtai ul li.hot{
+    color: #f7f7f7;
+    background: #4ebbfe;
+}
+.nouse{
+    margin: 0 0.32rem 0.32rem 0.32rem;
+    height: 4rem;
+}
+.nouse img{
+    width: 100%;
+    height: 100%;
+}

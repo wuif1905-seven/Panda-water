@@ -1,0 +1,232 @@
+@import "base.css";
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    box-sizing: border-box;
+    color: #4ebbfe;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,155,0.13);
+    margin-bottom: 0.28rem;
+}
+header > .iconfont {
+    color: #4ebbfe;
+}
+.section{
+    height: auto;
+    width: auto;
+    padding: 0.24rem;
+    background: #fbfaff;
+}
+.section .area{
+    width: 100%;
+    height: 1.16rem;
+    background-color: #e7f6ff;
+    border-radius: 8px;
+    padding-top: 0.48rem;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-around;
+}
+.area >span{
+    font-size: 0.24rem;
+    color: #36a8fe;
+}
+.area .asd>li{
+    font-size: 0.3rem;
+    color: #36a8fe;
+}
+.asd >p{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.5;
+}
+.area >a>i{
+    font-size: 0.24rem;
+    color: #36a8fe
+}
+.listitem{
+    height: 1.74rem;
+    margin-top: 0.32rem;
+    margin-bottom: 0.66rem;
+
+}
+.listitem > a{
+    height:100%;
+    width: 100%;
+    display: flex;
+}
+.listitem > a > .img{
+    flex-basis: 1.74rem;
+    width: 1.74rem;
+    background: #ffffff;
+    margin-right: 0.24rem;
+    box-shadow: 0 0.01rem 0.21rem 0
+    rgba(223,223,223,0.43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listitem > a>.img>img{
+    height: 1.25rem;
+    width: 1.19rem;
+}
+.text h1{
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.8;
+    margin-bottom: 0.18rem;
+}
+.score >span{
+    font-size: 0.22rem;
+    color:#000000;
+    opacity: 0.3;
+}
+.tag{
+    margin-top: 0.18rem;
+}
+.tag >span {
+    font-size:0.24rem;
+    color: #36a8fe;
+}
+.tag >span>b{
+    font-size: 0.3rem;
+}
+.liuyan{
+    width: 100%;
+    height: auto;
+
+}
+.liuyan >h1{
+    font-size: 0.26rem;
+    font-weight: normal;
+    padding-left: 0.2rem;
+    color: #41b2fc;
+    margin-top: 0.86rem;
+    position: relative;
+}
+.liuyan>h1::before{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0;
+    top: 0.18rem;
+}
+.space{
+    width: 100%;
+    height: 2.94rem;
+    margin-top: 0.28rem;
+    background: #e7f6ff;
+    border-radius: 8px;
+    opacity: 0.5;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.space >p{
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #b9c9d2;
+}
+.space>img{
+    width:1rem;
+    height: 1rem;
+    position: absolute;
+    left: 0.34rem;
+    bottom: 0.46rem;
+}
+.date{
+    margin-top: 0.94rem;
+}
+.date h1 {
+    padding-left: 0.2rem;
+    font-size: 0.26rem;
+    color: #41b2fc;
+    float: left;
+    position: relative;
+}
+.date>h1::before{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0;
+    top: 0.18rem;
+}
+.date >h1>b{
+    color: #4f5b64;
+}
+.date >span{
+    font-size: 0.3rem;
+    color: #36a8fe;
+    float: right;
+}
+.date span >b{
+    padding-right:0.1rem;
+    font-size: 0.26rem;
+    color: #b9c9d2;
+}
+.date span>a>i{
+    font-size: 0.3rem;
+    padding-left: 0.2rem;
+    color: #36a8fe;
+}
+.bottom{
+    width: 100%;
+    height: 1.08rem;
+    position:fixed;
+    bottom: 0;
+    background-color: #f1faff;
+}
+.bottom .bottoml{
+    margin-top: 0.3rem;
+    float: left;
+}
+.bottom .bottoml p{
+    padding-left: 0.4rem;
+    font-size: 0.24rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    position: relative;
+}
+.bottoml p::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.26rem;
+}
+.bottoml> p>b{
+    font-size: 0.36rem;
+    color: #36a8fe;
+}
+.bottom .bottomr{
+    float: right;
+}
+.bottomr >a >p{
+    height: 0.6rem;
+    width: 3.4rem;
+    background-image: linear-gradient(#37e06f 0%, #31d69a 100%);
+    font-size: 0.24rem;
+    color: #ffffff;
+    line-height: 0.6rem;
+    text-align: center;
+    position: absolute;
+    top: 0.26rem;
+    right: 0.24rem;
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 30px;
+}

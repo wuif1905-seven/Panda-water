@@ -1,0 +1,293 @@
+@import "base.css";
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    box-sizing: border-box;
+    color: #4ebbfe;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,155,0.13);
+}
+header > .iconfont {
+    color: #4ebbfe;
+}
+.goods{
+    width: 100%;
+    height:auto;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+}
+.goods .thumb{
+    height: 6.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumb > img{
+    width: 3rem;
+    height: 3.6rem;
+}
+.goods> h2{
+    font-size: 0.28rem;
+    color: #000;
+    opacity: 0.6;
+}
+.goods .text{
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    line-height: 1.5;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+}
+.goods .info{
+    margin: 0.18rem 0;
+    overflow: hidden;
+    border-bottom: 0.01rem solid #d8dfe3;
+    padding-bottom: 0.18rem;
+}
+.goods .info .jiage{
+    font-size: 0.26rem;
+    color: #fbb548;
+    float: left;
+    padding: 0.1rem;
+    margin-right: 0.2rem;
+}
+.goods .info .order{
+    font-size: 0.2rem;
+    color: #41b2fc;
+    padding: 0.1rem;
+    margin-right: 0.2rem;
+    background: #e8f6ff;
+    border-radius: 0.28rem;
+    float: left;
+}
+.goods .info .service{
+    font-size: 0.2rem;
+    color:  #36d681;
+    padding: 0.1rem;
+    background: #e7faf2;
+    border-radius: 0.28rem;
+    float: left;
+}
+.goods .xiaoliang{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.3);
+    float: right;
+    padding: 0.1rem;
+    position: relative;
+}
+.goods .xiaoliang strong{
+    font-size: 0.24rem;
+    color: #36a8fe;
+}
+.goods .xiaoliang::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #36d681;
+    position: absolute;
+    top:0.24rem;
+    left:-0.1rem;
+}
+.discont{
+    padding: 0 0.22rem ;
+    /*overflow: hidden;*/
+    /*border-bottom: 0.01rem solid #d8dfe3;*/
+    /*box-sizing: border-box;*/
+}
+.discont span{
+    padding: 0.1rem;
+    font-size: 0.24rem;
+    margin-bottom: 0.18rem;
+    color: #fbfeff;
+    background-image: linear-gradient(#ffca3b 0%,#ff933b 100%);
+    border-radius: 0.2rem;
+}
+.object{
+    padding: 0.22rem  0.22rem;
+    border-top: 0.01rem solid #d8dfe3;
+    font-size: 0.32rem;
+    color: #41b2fc;
+    margin: 0.18rem 0;
+    box-sizing: border-box;
+}
+.object> span > b{
+    font-size: 0.32rem;
+    color: #4f5b64;
+}
+.object > a{
+    float: right;
+    color: #3bacfe;
+    font-size: 0.22rem;
+}
+.object> a > i:last-child{
+    opacity: 0.5;
+}
+.object> a > i{
+    font-size: 0.22rem;
+}
+.opp{
+    height: auto;
+    padding: 0 0.22rem;
+}
+.opp .touxiang{
+    height: auto;
+    margin-top: 0.2rem;
+    /*border-bottom: 0.01rem solid #d8dfe3;*/
+    margin-bottom: 0.3rem;
+    display: flex;
+}
+.opp .touxiang .avatar{
+    width: 0.86rem;
+    height: 0.86rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex: none;
+}
+.opp .touxiang .oppinfo{
+    flex-grow: 1;
+    padding-top: 0.3rem;
+}
+.oppright{
+    padding-left: 0.2rem;
+    height: auto;
+}
+.oppinfo{
+    font-size: 0.2rem;
+    color: #41b2fc;
+    overflow: hidden;
+}
+.oppinfo >.username{
+
+    margin-right: 0.4rem;
+    float: left;
+}
+.oppinfo >.datel{
+    float: right;
+}
+.oppinfo > .star{
+    float: left;
+    width: 1.28rem;
+    height: 0.22rem;
+}
+.adword{
+    margin-top: 0.18rem;
+
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.area >span{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.shopphoto{
+    height: 1rem;
+    width: 1.8rem;
+    padding: 0.14rem 0;
+    background: #FFFFFF;
+    /*margin-bottom: 0.25rem;*/
+}
+.shopping{
+    width:100%;
+    height: auto;
+    padding:0.2rem;
+    display: flex;
+    margin-bottom: 0.28rem;
+    flex-direction: row;
+}
+.shopping>li{
+    width: 33%;
+    height: 3.2rem;
+}
+.shopping>li>a{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-top: 0.28rem;
+    display: flex;
+    justify-content: center;
+}
+.shopping>li>a>img{
+    padding-left: 0.26rem;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.shopping >li>p{
+    margin-top: 0.28rem;
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.shopping>li>div{
+    margin-top: 0.1rem;
+    font-size: 0.28rem;
+    color: #fbb548;
+}
+.bottom{
+    width: 100%;
+    height: 1.08rem;
+    position:fixed;
+    bottom: 0;
+    background-color: #f1faff;
+    display: flex;
+    flex-direction: row;
+}
+.bottom .bl{
+    padding: 0.2rem;
+    width: 2.72rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;.
+}
+.bottom .bl>li{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: flex;
+}
+.bottom .bl>li>a>p{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+.bottom .bl>li>a:last-child >p{
+    color: #2ed977;
+}
+.bottom{
+    flex-grow: 1;
+}
+.bottom .br{
+    padding:0.26rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.br{
+
+    font-size: 0.24rem;
+}
+.br .ab{
+    line-height: 0.6rem;
+    text-align: center;
+    height: 0.6rem;
+    width: 1.96rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%);
+    border-radius: 0.3rem;
+   margin-left: 0.26rem;
+}
+.br .ac{
+    line-height: 0.6rem;
+    text-align: center;
+    height: 0.6rem;
+    width: 1.96rem;
+    border-radius: 0.3rem;
+    margin-left: 0.26rem;
+    background-color: #3bacfe;
+    box-shadow: 0px 5px 12px 0px
+    rgba(59, 172, 254, 0.43);
+}

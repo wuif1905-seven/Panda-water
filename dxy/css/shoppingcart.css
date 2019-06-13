@@ -1,0 +1,240 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    background: #fbfeff;
+    padding: 0 0.22rem;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .iconfont{
+    color: #36a8fe;
+}
+.main{
+    width: 100%;
+    height: 11.18rem;
+    background: #fbfeff;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: block;
+}
+.main ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main ul li{
+    background: white;
+    height: 3rem;
+    padding: 0.48rem 0 0 0.78rem;
+    position: relative;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.05);
+}
+.main li.hot:before{
+    content: '';
+    width: 0.24rem;
+    height: 0.24rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #e7f6ff,
+            #e7f6ff);
+    position: absolute;
+    left: 0.2rem;
+    top: 1.3rem;
+    border-radius: 50%;
+}
+.main ul li:before{
+    content: '';
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #e7f6ff;
+    position: absolute;
+    left: 0.2rem;
+    top: 1.3rem;
+    border-radius: 50%;
+}
+.main ul li .cargoP{
+    height: 1.74rem;
+    width: 1.74rem;
+    display: block;
+    float: left;
+}
+.cargoP img{
+    height: 100%;
+    width: 100%;
+}
+.main ul li b{
+    float: left;
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+    font-weight: normal;
+    margin-left: 0.24rem;
+    margin-top: 0.5rem;
+}
+.main ul li .price{
+    margin-top: 0.3rem;
+    font-size: 0.26rem;
+    color: #8e9397;
+    opacity: 0.8;
+}
+.button{
+    float: right;
+    position: relative;
+    margin-top: 0.69rem;
+    margin-right: 0.25rem;
+}
+.button a{
+    display: block;
+    width: 1.27rem;
+    height: 0.34rem;
+}
+.button a img{
+    width: 100%;
+    height: 100%;
+}
+.figure:before{
+    content: "01";
+    position: absolute;
+    left: 0.5rem;
+    top: 0rem;
+    color: #36a8fe;
+    font-size: 0.26rem;
+
+}
+.footer{
+    width: 100%;
+    /*margin-top: 0.5rem;*/
+    padding: 0 0.22rem;
+    display: block;
+    background: rgba(241,250,255,0.6);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: fixed;
+    left: 0rem;
+    bottom: 0rem;
+}
+.js{
+    padding: 0.26rem 0 0.23rem 0.23rem;
+    font-size: 0.24rem;
+    color: rgba(59,172,254,0.6);
+    /*opacity: 0.6;*/
+    float: left;
+}
+.js .p1{
+    position: relative;
+}
+.footer .js .p1:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.1rem;
+    top: 0.25rem;
+}
+.js .p2{
+    position: relative;
+}
+.footer .js .p2:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.1rem;
+    top: 0.15rem;
+}
+/*.footer{*/
+/*    padding: 0 0.22rem;*/
+/*    display: block;*/
+/*    background: #f1faff;*/
+/*    box-sizing: border-box;*/
+/*}*/
+.js .rmb{
+    font-size: 0.36rem;
+    font-weight: normal;
+    color: #3bacfe;
+    opacity: 1;
+}
+.jiesuan{
+    float: right;
+    width: 3.8rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0px 0.04rem 0.02rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin-top: 0.35rem;
+    /*margin-left: 0.9rem;*/
+}
+.jiesuan p{
+    text-align: center;
+    line-height: 0.6rem;
+    color: #ffffff;
+    font-size: 0.24rem;
+}
+.emptoy{
+    display: none;
+}
+.chouxiang{
+    display: block;
+    width: 2.8rem;
+    height: 2.55rem;
+    margin: 2.62rem  0 0 2.6rem;
+}
+.emptoy  .chouxiang .tp{
+    width: 100%;
+    height: 100%;
+}
+.tishi{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.4;
+    margin-top: 0.52rem;
+    margin-left: 2.8rem;
+}
+.shopping{
+    width: 1.96rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin-top: 0.52rem;
+    margin-left: 2.74rem;
+}
+.shopping p{
+    font-size: 0.2rem;
+    color: #ffffff;
+    line-height: 0.6rem;
+    text-align: center;
+}

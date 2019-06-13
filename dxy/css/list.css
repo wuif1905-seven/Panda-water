@@ -1,0 +1,185 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    background: white;
+    padding: 0 0.22rem;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.iconfont{
+    color: #36a8fe;
+}
+nav{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.22rem;
+    background: white;
+    box-sizing: border-box;
+}
+nav ul{
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*align-content: space-between;*/
+}
+nav ul li i .iconfont{
+    font-size: 0.22rem;
+    width: 0.2rem;
+}
+nav p.hot{
+    color: #36d681;
+}
+nav p.hot .iconfont{
+    color: #36d681;
+}
+footer{
+    top: 1.76rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+.list{
+    width: 100%;
+    height: 100%;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+}
+.list li{
+    position: relative;
+    height: 1.74rem;
+    width: 100%;
+    background: #b7f576;
+    margin-bottom: 0.63rem;
+}
+.list li img{
+    height: 100%;
+    width: 1.74rem;
+    background: white;
+    /*float: left;*/
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+}
+.list li div{
+    width: 5.32rem;
+    height: 100%;
+    background: #ffffff;
+    float: right;
+}
+.list li div h3{
+    font-size: 0.30rem;
+}
+.list li div p{
+    width: 5.32rem;
+    /*height: 0.4rem;*/
+    background: white;
+    float: right;
+}
+.list li div p i{
+    font-size: 0.22rem;
+    color: #000000;
+    padding: 0 0 0 0.2rem;
+}
+.list li div p i:before{
+    content: "";
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    position: absolute;
+    left: 1.8rem;
+    top: 0.6rem;
+}
+.list li div p i:after{
+    content: "";
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    position: absolute;
+    left: 2.99rem;
+    top: 0.6rem;
+}
+.list li div p a{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-left: 0.1rem;
+}
+.list li .pj{
+    width: 5.32rem;
+    height: 0.28rem;
+    background: white;
+    float: right;
+}
+.list li .pj ul{
+    width: 100%;
+    height: 100%;
+}
+.list li .pj ul li{
+    width: 0.82rem;
+    height: 0.28rem;
+    padding: 0.08rem 0.21rem 0.08rem 0.18rem;
+    float: left;
+    background: grey;
+    color: #36a8fe;
+    font-size: 0.20rem;
+    margin: 0 0 0 0.1rem;
+    border-radius: 0.3rem;
+}
+.list li div .pj ul .heli{
+    width: 0.82rem;
+    height: 0.28rem;
+    float: left;
+    background: grey;
+    color: #36a8fe;
+    font-size: 0.20rem;
+    border-radius: 0.3rem;
+}
+.sell{
+    float: left;
+    width: 5.32rem;
+    background: white;
+    margin-top: 0.2rem;
+    padding-left: 0.2rem;
+}
+.sell p{
+    width: 5.3rem;
+    margin-left: 0.05rem;
+    color: #000;
+    font-size: 0.18rem;
+    opacity: 0.3;
+    position: relative;
+}
+.sell p:before{
+    content: "";
+    position: absolute;
+    left: -0.15rem;
+    top: 0.13rem;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #36d681;
+}
+.sell p a{
+    opacity: 0.2;
+}
+.price{
+    position: absolute;
+    right: 0.3rem;
+    top: 1.4rem;
+    color: #fbb548;
+    font-size: 0.26rem;
+}
+
+

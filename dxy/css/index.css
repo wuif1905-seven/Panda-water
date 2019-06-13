@@ -1,0 +1,186 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+body {
+    font-size: 16px; }
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    height: 0.88rem;
+    background: white;
+    padding: 0 0.22rem;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+/*.return{*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 0.25rem;*/
+/*    height: 0.42rem;*/
+/*    background: white;*/
+/*    color: #36a8fe;*/
+/*}*/
+article div{
+    height: 0.94rem;
+    padding: 0 0.22rem;
+    background: white;
+}
+article div span{
+    height: 0.94rem;
+    background: white;
+    float: left;
+    color: #4ebbfe;
+    font-size: 0.28rem;
+    line-height: 0.94rem;
+}
+article div a{
+    width: 5.93rem;
+    height: 0.6rem;
+    float: right;
+    margin: 0.17rem 0;
+    border-radius: 0.3rem;
+    background-color: #ebf7ff;
+    }
+.banner{
+    height: 3.07rem;
+    background: #b7f576;
+}
+.banner a{
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+}
+.banner a:before{
+    content: "";
+    width: 0.11rem;
+    height: 0.11rem;
+    border-radius: 50%;
+    background: #46b7f8;
+    position: absolute;
+    left: 3.4rem;
+    bottom: 0.3rem;
+}
+/*.banner img:before{*/
+/*    content: "";*/
+/*    width: 0.11rem;*/
+/*    height: 0.11rem;*/
+/*    border-radius: 50%;*/
+/*    background: #46b7f8;*/
+/*    position: absolute;*/
+/*    left: 3.9rem;*/
+/*    bottom: 0.3rem;*/
+/*}*/
+.banner a:after{
+    content: "";
+    width: 0.11rem;
+    height: 0.11rem;
+    border-radius: 50%;
+    background: #46b7f8;
+    position: absolute;
+    left: 4.4rem;
+    bottom: 0.3rem;
+}
+.banner a img{
+    width: 100%;
+    height: 100%;
+}
+.ess{
+    height: 7.32rem;
+    background: white;
+    padding: 0.22rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    }
+.ess li{
+    width: 2.33rem;
+    height: 1.94rem;
+    background: white;
+    border: 0.01rem solid white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.ess > li >a{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    background: white;
+    display: block;
+    /*margin: auto;*/
+}
+.ess li a img{
+    width: 100%;
+    height: 100%;
+}
+.ess > li >p{
+    width: 0.98rem;
+    color: #8e9397;
+    font-size: 0.24rem;
+}
+.under{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 0.98rem;
+    background: #f1f9ff;
+    padding: 0 0.22rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.under li{
+    width: 1.41rem;
+    height: 0.98rem;
+    background: #f1f9ff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.under li a{
+    margin-top: -10px;
+    display: block;
+    width: 0.51rem;
+    height: 0.42rem;
+    background: #f1f9ff;
+    opacity: 0.5;
+}
+.under li a.special{
+    opacity: 1;
+}
+.under li a img{
+    width: 100%;
+    height: 100%;
+}
+.under li p{
+    width: 0.47rem;
+    color: #59c3fe;
+    font-size: 0.23rem;
+}
+
