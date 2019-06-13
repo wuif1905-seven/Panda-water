@@ -38,6 +38,9 @@ header li a .iconfont{
     margin: 0.32rem auto;
 
 }
+.right{
+    margin-left: 0.2rem;
+}
 .top{
     height: 1rem;
     margin-bottom: 0.2rem;
@@ -48,23 +51,29 @@ header li a .iconfont{
 .top p img{
     width: 0.9rem;
     height: 0.9rem;
+    border-radius: 50%;
+    margin: 0.1rem;
 }
 .top  h1{
-    width: 5.15rem;
+    width: 5rem;
     font-size: 0.3rem;
     letter-spacing: 0.01rem;
     color: #000000;
     opacity: 0.5;
     display: flex;
     justify-content: space-between;
+    margin-top: 0.2rem;
 }
 .top h2{
     width: 5.15rem;
-    font-size: 0.3rem;
+    font-size: 0.22rem;
+    font-weight: bolder;
+    font-stretch: normal;
     letter-spacing: 0.01rem;
     color: #000000;
-    opacity: 0.5;
+    opacity: 0.3;
     display: flex;
+    margin-top: 0.2rem;
 
 }
 .down{
@@ -85,6 +94,14 @@ header li a .iconfont{
 .icon-jinguan{
     color: gold;
 }
+
+#gonglue{
+    font-size: 0.2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+}
 /*内容*/
 .content{
 padding: 0.32rem;
@@ -97,6 +114,7 @@ padding: 0.32rem;
   padding-left: 0.2rem;
     color: #44b5ff;
     position: relative;
+
 }
 .content h1:before{
     width: 0.1rem;
@@ -116,6 +134,21 @@ padding: 0.32rem;
 }
 .content .tubiao li{
     margin:0 0.2rem ;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #8e9397;
+}
+#tequan{
+    font-size: 0.28rem;
+    font-weight: bold;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #000000;
+    opacity: 0.4;
+    margin-right: 0.28rem;
 }
 .content .tubiao li img{
     width: 1.13rem;
