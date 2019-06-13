@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/charge.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1194316_dipopie5zo.css">
+    <script src="jquery-3.4.1.js"></script>
+</head>
+<body>
+<script>
+    $(function () {
+        let li1=$('.firstLine>li');
+        let li2=$('.secondLine>li')
+        li1.on('click',function () {
+            let _this=$(this)
+            if(_this.hasClass('hot')){
+                _this.removeClass('hot')
+            }else{
+                li1.removeClass('hot')
+                li2.removeClass('hot')
+                _this.addClass('hot')
+            }
+        })
+        li2.on('click',function () {
+            let _this=$(this)
+            if(_this.hasClass('hot')){
+                _this.removeClass('hot')
+            }else{
+                li1.removeClass('hot')
+                li2.removeClass('hot')
+                _this.addClass('hot')
+            }
+        })
+    })
+</script>
+<header>
+    <div><a href="wallet.html" class="iconfont icon-fanhui"></a></div>
+    <div class="adress">钱包</div>
+    <div></div>
+</header>
+<div class="lb">
+    <ul class="firstLine">
+        <li class="hot">
+            <h4>50<span>元</span></h4>
+            <p>售价<span>49.8</span>元</p>
+        </li>
+        <li>
+            <h4>100<span>元</span></h4>
+            <p>售价<span>99.8</span>元</p>
+        </li>
+        <li>
+            <h4>200<span>元</span></h4>
+            <p>售价<span>198.8</span>元</p>
+        </li>
+    </ul>
+    <ul class="secondLine">
+        <li>
+            <h4>300<span>元</span></h4>
+            <p>售价<span>49.8</span>元</p>
+        </li>
+        <li>
+            <h4>500<span>元</span></h4>
+            <p>售价<span>49.8</span>元</p>
+        </li>
+        <li>
+            <h4>1000<span>元</span></h4>
+            <p>售价<span>49.8</span>元</p>
+        </li>
+    </ul>
+    <ul class="thirdLine">
+        <li><p>白银会员</p></li>
+        <li><p>黄金会员</p></li>
+        <li><p>白金会员</p></li>
+    </ul>
+</div>
+<div class="foot">
+    <input type="text" placeholder="自定义金额">
+    <span><a href="confirmcharge.html">确认充值</a></span>
+</div>
+</body>
+</html>

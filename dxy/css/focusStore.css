@@ -1,0 +1,48 @@
+@import "base.css";
+@import "person.css";
+.store{
+    margin-top: 0.5rem;
+}
+.store ul li{
+    border-top: 0.01rem solid rgba(0,0,0,0.1);
+    overflow: hidden;
+    height: 1.3rem;
+}
+.flog{
+    margin-top: 0.1rem;
+    margin-right: 0.2rem;
+    float: left;
+    width: 1.4rem;
+    height: 0.7rem;
+    /*border-radius: 50%;*/
+}
+.flog a img{
+    height: 100%;
+    width: 100%;
+    /*border-radius: 50%;*/
+}
+.store ul li p{
+    margin-top: 0.1rem;
+}
+.store ul li i{
+    color: #fbb548;
+    margin-top: 0.1rem;
+    font-style: normal;
+    float: right;
+    font-size: 0.26rem;
+}
+.store ul li i span{
+    color: black;
+    padding-right: 0.3rem;
+}
+.explore{
+    margin-top: 2rem;
+    margin-left: 1.8rem;
+    height: 0.6rem;
+    width: 3.5rem;
+    background: #b7f576;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: rgba(0,0,0,0.5);
+}

@@ -1,0 +1,11 @@
+@import "base.css";
+@import "person.css";
+.interview{
+    width: auto;
+    height: 1rem;
+    margin: 5rem auto;
+    background: rgba(0,0,0,0.5);
+    color: #f7f7f7;
+    text-align: center;
+    line-height: 1rem;
+}

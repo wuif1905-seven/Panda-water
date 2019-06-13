@@ -1,0 +1,46 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    background: white;
+    padding: 0 0.22rem;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.message{
+    margin-top: 1rem;
+}
+header .iconfont{
+    color: #36a8fe;
+}
+.message{
+    width: 100%;
+    height: auto;
+    background: #f7f7f7;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+}
+.message ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.message ul li{
+    height: 1.42rem;
+    /*margin-left: 0.6rem;*/
+}
+.foot{
+    margin: 2rem auto;
+    width: 0.8rem;
+    height: 0.6rem;
+    background: #fbb548;
+    color: #f7f7f7;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.6rem;
+}

@@ -1,0 +1,148 @@
+@import "base.css";
+@import "wallet.css";
+.lb{
+    padding: 0.31rem 0.25rem 0.8rem 0.23rem;
+    height: 3rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.1);
+    /*background-color: #e7f6ff;*/
+}
+.lb .firstLine{
+    display: flex;
+    justify-content: space-between;
+}
+.lb .firstLine li{
+    width: 2.1rem;
+    height: 1.08rem;
+    background-color: #e7f6ff;
+}
+.lb .firstLine li.hot{
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.08rem;
+}
+.lb .firstLine li.hot h4{
+    color: #f7f7f7;
+}
+.lb .firstLine li.hot h4 span{
+    color: #f7f7f7;
+}
+.lb .firstLine li.hot p{
+    color: #f7f7f7;
+}
+.lb .firstLine li.hot p span{
+    color: #f7f7f7;
+}
+.lb .firstLine li h4{
+    text-align: center;
+    font-size: 0.4rem;
+    color: #3bacfe;
+    margin-bottom: 0.12rem;
+}
+.lb .firstLine li h4 span{
+    font-size: 0.3rem;
+    color: #3bacfe;
+    opacity: 0.55;
+}
+.lb .firstLine li p{
+    text-align: center;
+    font-size: 0.2rem;
+    color: rgba(59,172,254,0.55);
+}
+.lb .firstLine li p span{
+    font-size: 0.28rem;
+    color: rgba(59,172,254,1);
+}
+.lb .secondLine{
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.lb .secondLine li{
+    width: 2.1rem;
+    height: 1.08rem;
+    background-color: #e7f6ff;
+}
+.lb .secondLine li.hot{
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.08rem;
+}
+.lb .secondLine li.hot h4{
+    color: #f7f7f7;
+}
+.lb .secondLine li.hot h4 span{
+    color: #f7f7f7;
+}
+.lb .secondLine li.hot p{
+    color: #f7f7f7;
+}
+.lb .secondLine li.hot p span{
+    color: #f7f7f7;
+}
+.lb .secondLine li h4{
+    text-align: center;
+    font-size: 0.4rem;
+    color: #3bacfe;
+    margin-bottom: 0.12rem;
+}
+.lb .secondLine li h4 span{
+    font-size: 0.3rem;
+    color: #3bacfe;
+    opacity: 0.55;
+}
+.lb .secondLine li p{
+    text-align: center;
+    font-size: 0.2rem;
+    color: rgba(59,172,254,0.55);
+}
+.lb .secondLine li p span{
+    font-size: 0.28rem;
+    color: rgba(59,172,254,1);
+}
+.lb .thirdLine{
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.lb .thirdLine p{
+    font-size: 0.2rem;
+    color: #97c6e9;
+}
+.foot{
+    padding-left: 0.23rem;
+    padding-right: 0.25rem;
+}
+.foot input{
+    margin-top: 0.8rem;
+    width: 4.75rem;
+    height: 0.76rem;
+    background-color: #e7f6ff;
+    border-radius: 0.08rem;
+    border: solid 0.02rem #c2e2f9;
+    opacity: 0.5;
+}
+.foot span{
+    margin-top: 0.8rem;
+    float: right;
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    text-align: center;
+    line-height: 0.6rem;
+    color: #ffffff;
+    font-size: 0.2rem;
+}
+.foot span a{
+    color: #f7f7f7;
+}
