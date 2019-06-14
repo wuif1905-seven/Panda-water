@@ -1,0 +1,148 @@
+header{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+}
+header .iconfont{
+    color: #4ebbfe;
+    font-size: 0.4rem;
+}
+.order{
+    height: 0.88rem;
+    width: 100%;
+    padding:0 0.8rem ;
+    box-sizing: border-box;
+    font-size: 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+}
+.order li a{
+    color: #4ebbfe;
+}
+.order >li.hot a{
+    color: #36d681;
+}
+.list{
+    width: 100%;
+    position: absolute;
+    top: 1.76rem;
+    bottom: 0;
+    padding: 0 0.3rem;
+    background: #fff;
+    box-sizing: border-box;
+}
+.list >ul >li {
+    width:100%;
+    height: 1.74rem;
+    margin-top: 0.65rem;
+    background: #FFFFFF;
+
+}
+.list >ul >li a{
+    width:100%;
+    height: 1.74rem;
+    display: flex;
+}
+ .listLeft{
+     width: 1.18rem;
+     height: 1.18rem;
+     padding: 0.28rem 0.28rem;
+}
+.listLeft>img{
+    width: 1.18rem;
+    height: 1.18rem;
+}
+ .listRight{
+     height: 1.74rem;
+     flex: 1;
+     padding: 0 0.27rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     position: relative;
+}
+ .listRight > h3{
+     font-size: 0.3rem;
+     height: 0.28rem;
+     color: #000;
+     opacity: 0.6;
+     font-weight: normal;
+ }
+.listRight > .mark {
+    height: 0.22rem;
+    color: #44b5ff;
+    display: inline-block;
+}
+.listRight > .mark >span{
+    margin-right: 0.52rem;
+    height: 0.22rem;
+    font-size: 0.22rem;
+    padding-left:0.2rem ;
+    position: relative;
+    color: rgba(0,0,0,0.3);
+}
+.listRight > .mark >span::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    box-shadow: 0 2rem 5rem 0 rgba(68, 181, 255, 0.43);
+    position: absolute;
+    top: 0.14rem;
+    left: 0;
+}
+.listRight > .mark >span>strong{
+    margin-left: 0.12rem;
+    color: #36a8fe;
+}
+.table{
+    height: 0.35rem;
+    border-radius: 0.18rem;
+    font-size: 0.2rem;
+    line-height:0.35rem ;
+    margin-top: 0.18rem;
+    font-weight: bold;
+}
+.table > span {
+    width: 1.21rem;
+    display: inline-block;
+    background: rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+    text-align: center;
+    color: #36a8fe;
+
+}
+.total{
+    height: 0.28rem;
+    font-size: 0.18rem;
+    position: relative;
+    padding-left:0.2rem ;
+    color: rgba(0,0,0,0.3);
+}
+.total::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.12rem;
+    left: 0;
+    background-color: #36d681;
+    box-shadow: 0 2rem 5rem 0 rgba(54, 214, 129, 0.43);
+}
+.price{
+    height: 0.3rem;
+    position: absolute;
+    bottom: 0.05rem;
+    right: 0;
+    color: #fbb548;
+    font-size: 0.26rem;
+}

@@ -1,0 +1,100 @@
+@import "common.css";
+
+header{
+    height: 0.88rem;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.38rem;
+}
+.search{
+    height: 0.6rem;
+    padding: 0.17rem 0.22rem;
+}
+.search span{
+    line-height: 0.6rem;
+    float: left;
+    font-size:0.28rem ;
+    color: #4ebbfe;
+    margin-right: 0.12rem;
+}
+.search > span >.icon-font{
+    font-size:0.17rem ;
+}
+.search a{
+    width: 5.93rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    border: 0.01rem solid #046b80;
+    float: right;
+
+}
+.banner{
+    height: 3rem;
+    width: 100%;
+    background: #5B469B;
+}
+.category{
+    padding: 0.22rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.category li{
+    width: 2.35rem;
+    height: 1.94rem;
+    background: #fff;
+}
+.category >li> a{
+    height: 100%;
+    width: 100%;
+    font-size: 0.24rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.category> li >a >div{
+    width: 1.13rem;
+    height: 1.13rem;
+}
+.tail{
+    height: 0.98rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    background-color: #f1f9ff;
+    padding: 0.1rem 0.22rem;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.tail li{
+    width: 0.7rem;
+    height:100% ;
+    display: inline-block;
+}
+.tail li a{
+    width: 0.7rem;
+    height:100% ;
+    /*padding-top: 0.1rem;*/
+    /*box-sizing: border-box;*/
+    font-size: 0.24rem;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.5;
+    /*padding-bottom: 0.1rem;*/
+}
+.tail li a.hot{
+    opacity: 1;
+}
+.tail li a div{
+    width: 0.45rem;
+    height: 0.45rem;
+    display: inline-block;
+}

@@ -1,0 +1,267 @@
+header{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    background-color: #fbfeff;
+    margin-bottom: 0.3rem;
+}
+header .iconfont{
+    color: #4ebbfe;
+    font-size: 0.4rem;
+}
+.search{
+    margin-top: 1.18rem;
+    width: 100%;
+    height: 0.6rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+}
+.search a{
+    height: 0.6rem;
+    width: 100%;
+    background: #ebf7ff;
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+    display: block;
+    line-height: 0.6rem;
+    position: relative;
+    /*overflow: hidden;*/
+}
+div.search-words{
+    height: 0.24rem;
+    font-size:0.24rem ;
+    margin-left: 0.3rem;
+    display: inline-block;
+    line-height: 0.24rem;
+    /*float: left;*/
+}
+div.search-pic{
+    width: 0.79rem;
+    height: 0.44rem;
+    background: #a4e0bd;
+    display: inline-block;
+    border-radius: 0.7rem;
+    position: absolute;
+    bottom: 0.08rem;
+    right: 0.09rem;
+    text-align: center;
+    line-height: 0.44rem;
+}
+.nursing {
+    width: 100%;
+    padding:0 0.22rem;
+    box-sizing: border-box;
+    /*box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);*/
+    background-color: #fbfeff;
+}
+.nursing > a{
+    height: 1.74rem;
+    display: flex;
+    margin-top: 0.4rem;
+    width:100%;
+    margin-bottom: 0.32rem;
+}
+.nursingLeft{
+    width: 1.74rem;
+    height: 1.74rem;
+    flex: none;
+}
+.nursingRight{
+    height: 1.74rem;
+    flex: 1;
+    padding: 0 0.22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+.nursingRight > h3{
+    font-size: 0.3rem;
+    height: 0.3rem;
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+    line-height: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.nursingRight > p{
+    font-size: 0.22rem;
+    height: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 0.22rem;
+    margin-bottom: 0.2rem;
+}
+.nursingRight > .mark {
+    height: 0.26rem;
+    display: inline-block;
+    line-height: 0.26rem;
+}
+.nursingRight > .mark >span{
+    margin-right: 0.3rem;
+    height: 0.22rem;
+    font-size: 0.22rem;
+    padding-left:0.2rem ;
+    position: relative;
+    color: rgba(0,0,0,0.3);
+}
+.nursingRight > .mark > span::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    box-shadow: 0 2rem 5rem 0 rgba(68, 181, 255, 0.43);
+    position: absolute;
+    top: 0.14rem;
+    left: 0;
+}
+.nursingRight > .mark >span>strong{
+    margin-left: 0.12rem;
+    color: #36a8fe;
+}
+.tag{
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: center;
+}
+.tag a{
+    height: 0.52rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    font-size: 0.2rem;
+    line-height:0.52rem ;
+    margin-top: 0.25rem;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+
+}
+.tag a span{
+    height: 0.52rem;
+    width: 1.33rem;
+    display: inline-block;
+    border-radius: 0.26rem;
+    margin-right: 0.25rem;
+    text-align: center;
+    background-color: rgba(59, 172, 254, 0.1);
+    color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0 rgba(59, 172, 254, 0.43);
+}
+.tag a .hot{
+    color: #fff;
+    background-color: #3bacfe;
+}
+.service{
+    width: 100%;
+    padding:0 0.22rem;
+    box-sizing: border-box;
+
+}
+.service >ul >li {
+    width:100%;
+    margin-bottom: 0.32rem;
+    /*background: #FFFFFF;*/
+
+}
+.service >ul >li a{
+    width:100%;
+    height: 1.97rem;
+    display: flex;
+}
+.listLeft{
+    width: 1.97rem;
+    height: 1.97rem;
+    padding: 0.22rem 0.36rem;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 10px;
+    flex: none;
+}
+.listLeft>img{
+    width: 1.2rem;
+    height: 1.44rem;
+}
+.listRight{
+    height: 1.97rem;
+    flex: 1;
+    padding: 0 0.22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.listRight > h3{
+    font-size: 0.3rem;
+    height: 0.3rem;
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+    line-height: 0.3rem;
+}
+.listRight > p{
+    font-size: 0.22rem;
+    height: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 0.22rem;
+}
+.listRight > .mark {
+    height: 0.26rem;
+    display: inline-block;
+    line-height: 0.26rem;
+}
+.listRight > .mark >span{
+    margin-right: 0.3rem;
+    height: 0.22rem;
+    font-size: 0.22rem;
+    padding-left:0.2rem ;
+    position: relative;
+    color: rgba(0,0,0,0.3);
+}
+.listRight > .mark > span::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    box-shadow: 0 2rem 5rem 0 rgba(68, 181, 255, 0.43);
+    position: absolute;
+    top: 0.14rem;
+    left: 0;
+}
+.listRight > .mark >span>strong{
+    margin-left: 0.12rem;
+    color: #36a8fe;
+}
+.listRight > .mark >b{
+    color: #fbb548;
+    font-size: 0.26rem;
+    float: right;
+}
+.store-name{
+    height: 0.3rem;
+    line-height: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+.store-name img{
+    height: 0.3rem;
+    width: 0.3rem;
+    display: inline-block;
+    margin-right: 0.2rem;
+}
+.store-name span{
+    color: #cfcfcf;
+    font-size: 0.2rem;
+
+}

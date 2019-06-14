@@ -1,0 +1,231 @@
+header{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    background-color: #fbfeff;
+
+}
+header .iconfont{
+    color: #4ebbfe;
+    font-size: 0.4rem;
+}
+.tag {
+    width: 100%;
+    height: 0.52rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    font-size: 0.2rem;
+    line-height:0.52rem ;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+
+}
+.tag a span{
+    height: 0.52rem;
+    width: 1.33rem;
+    display: inline-block;
+    border-radius: 0.26rem;
+    margin-right: 0.25rem;
+    text-align: center;
+    background-color: rgba(59, 172, 254, 0.1);
+    color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0 rgba(59, 172, 254, 0.43);
+}
+.tag a .hot{
+    color: #fff;
+    background-color: #3bacfe;
+}
+.title{
+    height: 1.18rem;
+    width: 100%;
+    padding: 0.42rem 0.22rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.title h1{
+    font-size: 0.32rem;
+    color: #41b2fc;
+    padding-left: 0.2rem;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.title h1::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    top: 0.16rem;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+}
+.title  strong{
+    color: #4f5b64;
+    font-size: 0.32rem;
+    display: inline-block;
+    float: left;
+}
+.title  a span{
+    font-size: 0.22rem;
+    color: #3bacfe;
+    float: right;
+    line-height:1.5 ;
+}
+.title a .iconfont{
+    font-size: 0.2rem;
+}
+.title a .iconfont.hot{
+    color: rgba(54,168,254,0.5);
+
+}
+.service{
+    width: 100%;
+    padding:0 0.22rem;
+    box-sizing: border-box;
+
+}
+.service >ul >li {
+    width:100%;
+    margin-bottom: 0.32rem;
+    background: #FFFFFF;
+
+}
+.service >ul >li a{
+
+    width:100%;
+    height: 1.97rem;
+    display: flex;
+}
+.listLeft{
+    width: 1.97rem;
+    height: 1.97rem;
+    padding: 0.22rem 0.36rem;
+    box-sizing: border-box;
+    flex: none;
+}
+.listLeft>img{
+    width: 1.2rem;
+    height: 1.44rem;
+}
+.listRight{
+    height: 1.97rem;
+    flex: 1;
+    padding: 0 0.22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.listRight > h3{
+    font-size: 0.3rem;
+    height: 0.3rem;
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+    line-height: 0.3rem;
+}
+.listRight > p{
+    font-size: 0.22rem;
+    height: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 0.22rem;
+}
+.listRight > .mark {
+    height: 0.26rem;
+    display: inline-block;
+    line-height: 0.26rem;
+}
+.listRight > .mark >span{
+    margin-right: 0.3rem;
+    height: 0.22rem;
+    font-size: 0.22rem;
+    padding-left:0.2rem ;
+    position: relative;
+    color: rgba(0,0,0,0.3);
+}
+.listRight > .mark > span::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    box-shadow: 0 2rem 5rem 0 rgba(68, 181, 255, 0.43);
+    position: absolute;
+    top: 0.14rem;
+    left: 0;
+}
+.listRight > .mark >span>strong{
+    margin-left: 0.12rem;
+    color: #36a8fe;
+}
+.listRight > .mark >b{
+    color: #fbb548;
+    font-size: 0.26rem;
+    float: right;
+}
+.store-name{
+    height: 0.3rem;
+    line-height: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+.store-name img{
+    height: 0.3rem;
+    width: 0.3rem;
+    display: inline-block;
+    margin-right: 0.2rem;
+}
+.store-name span{
+    color: #cfcfcf;
+    font-size: 0.2rem;
+
+}
+
+footer{
+    height: 0.98rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    background-color: #f1f9ff;
+    padding: 0.1rem 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer li{
+    width: 0.7rem;
+    height:100% ;
+    display: inline-block;
+}
+footer li a{
+    width: 0.7rem;
+    height:100% ;
+    font-size: 0.24rem;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.5;
+}
+footer li a.hot{
+    opacity: 1;
+}
+footer li a div{
+    width: 0.45rem;
+    height: 0.45rem;
+    display: inline-block;
+}
