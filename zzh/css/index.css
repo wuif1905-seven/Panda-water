@@ -1,0 +1,114 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    text-align: center;
+}
+.search{
+    padding: 0.17rem 0.22rem;
+    height: 0.6rem;
+}
+.search > span{
+    float: left;
+    color: #4ebbfe;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+}
+.search > a{
+float: right;
+    width: 5.93rem;
+    height: 0.6rem;
+    border: 0.01rem solid #2d40bc;
+    border-radius: 0.3rem;
+
+}
+.banner{
+    width: 100%;
+    height: 3rem;
+    background: white;
+}
+.category{
+    padding: 0.22rem;
+    height: 6.9rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.category li{
+    width: 2.35rem;
+    height: 1.94rem;
+    background: #ffffff;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+
+}
+.category > li > a img{
+    width: 1.13rem;
+    height: 1.13rem;
+}
+.category >li > a > p{
+    font-size: 0.24rem;
+    color: #8e9397;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+
+footer{
+    width: 7.5rem;
+    height: 0.98rem;
+    background-color: #f1f9ff;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer li a img{
+    width: 0.46rem;
+    height: 0.5rem;
+    margin-top: 0.12rem;
+}
+footer li{
+    width: 1.5rem;
+    height: 0.98rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer li a p{
+    font-size: 0.24rem;
+    text-align: center;
+    color: #9ddcff;
+}

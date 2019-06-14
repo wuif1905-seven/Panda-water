@@ -1,2 +1,6 @@
 @import "base.css";
 @import "taken.css";
+
+.nouse img{
+    height: 90px;
+}

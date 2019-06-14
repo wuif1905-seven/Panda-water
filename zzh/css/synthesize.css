@@ -1,0 +1,200 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+   padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+header li .iconfont{
+    color: #4ebbfe;
+    font-size: 0.6rem;
+}
+header li i{
+    width: 0.66rem;
+    height: 0.88rem;
+    display: block;
+}
+.order{
+    height: 0.88rem;
+    padding: 0 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    line-height:  0.88rem;
+    background: white;
+}
+.order li {
+
+    color:#4ebbfe;
+    display: flex;
+    align-content: space-between;
+}
+.order  a{
+    color: #4ebbfe;
+    margin-right: 0.15rem;
+}
+.list{
+    width: 100%;
+    background: #fbfeff;
+    position: absolute;
+    top: 2rem;
+    bottom: 0;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.listItem{
+    height: 1.74rem;
+    background: #fbfeff;
+    margin-bottom: 0.66rem;
+}
+.listItem > a {
+    width: 7.05rem;
+    height: 1.74rem;
+    display: flex;
+}
+.thumb{
+    width: 1.74rem;
+    height: 1.74rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(233, 233, 233, 0.43);
+    border-radius: 0.1rem;
+    display: flex;
+}
+.info{
+    width:2rem;
+    height: 1.74rem;
+    flex-grow: 1;
+    padding-left: 0.26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.listItem p{
+    display: inline-block;
+}
+.listItem h1{
+    font-size: 0.28rem;
+}
+.frist{
+    position: relative;
+}
+.listItem .frist p:nth-child(1):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.14rem;
+}
+.listItem .frist p:nth-child(3):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.14rem;
+}
+.listItem a .frist p:nth-child(1){
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    padding-left: 0.14rem;
+    margin-right: 0.12rem;
+    position: relative;
+}
+.listItem a .frist p:nth-child(2){
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-right: 0.48rem;
+}
+.listItem a .frist p:nth-child(3){
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    padding-left: 0.14rem;
+    margin-right: 0.12rem;
+    position: relative;
+}
+.listItem a .frist p:nth-child(4){
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.listItem a .second p{
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    font-size: 0.2rem;
+    margin-right: 0.12rem;
+    display: inline-block;
+    width: 1.21rem;
+    height: 0.35rem;
+    text-align: center;
+    line-height: 0.35rem;
+    background:rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+}
+.listItem a .third {
+    font-size: 0.18rem;
+    margin-top: 0.1rem;
+    position: relative;
+    width: 100%;
+}
+.listItem a .third p{
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.14rem;
+    position: relative;
+}
+.listItem a h2 {
+    display: inline-block;
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0;
+    color: #fbb548;
+    font-size: 0.26rem;
+}
+.listItem a .third p:first-child:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #36d681;
+    border-radius: 0.03rem;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+
+}

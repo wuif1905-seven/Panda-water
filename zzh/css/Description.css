@@ -1,0 +1,420 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+header li .iconfont{
+    color: #4ebbfe;
+    font-size: 0.6rem;
+}
+header li i{
+    width: 0.66rem;
+    height: 0.88rem;
+    display: block;
+}
+.bag{
+    width: 100%;
+    height: 6.05rem;
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+.bag a{
+    display: block;
+    width: 3rem;
+    height: 3.62rem;
+    background: white;
+}
+.info{
+    height:auto;
+    margin-top: 0.15rem;
+    background: white;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.info h3{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.info p{
+    font-size: 0.22rem;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    height: 0.66rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.information{
+    margin: 0.18rem 0;
+    position: relative;
+}
+.information > span{
+    margin-right: 0.2rem;
+}
+.information > span:first-child{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fbb548;
+}
+.information > span:nth-child(2){
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #41b2fc;
+    width: 78px;
+    height: 36px;
+    background:rgba(65,178,252,0.1);
+    border-radius: 18px;
+    margin-right: 0.3rem;
+    padding: 0.08rem 0.2rem;
+}
+.information > span:nth-child(3){
+    font-size: 0.2rem;
+    font-weight: normal;
+    letter-spacing: 0.01rem;
+    color: #36d681;
+    width: 113px;
+    height: 36px;
+    background: rgba(54,214,252,0.1);
+    border-radius: 18px;
+    padding: 0.08rem 0.2rem;
+}
+.information .total{
+    float: right;
+}
+.information .total-l{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    margin: 0 0.1rem;
+}
+.information .total-r{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #36a8fe;
+}
+.information .total::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem
+    rgba(54, 214, 129, 0.43);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    bottom: 0.2rem;
+}
+.discount{
+    margin: 0 0.2rem;
+    border-bottom: 0.01rem solid #f0f5f7;
+    border-top: 0.01rem solid #f0f5f7;
+}
+.discount > a >img{
+    width:0.57rem;
+    height: 0.41rem;
+    float: left;
+    margin-top: 0.2rem;
+
+}
+.discount > a .art{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ff844e;
+    margin: 0 0.14rem 0 0.13rem;
+}
+.discount > a .pic{
+    padding: 0.08rem 0.22rem;
+    font-size: 0.24rem;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #fbfeff;
+    background-color: #ff933b;
+    background-image: linear-gradient(270deg,
+    #ffca3b 0%,
+    #ff933b 100%);
+    border-radius: 0.22rem;
+}
+.factor{
+    margin: 0 0.2rem;
+    height: 0.76rem;
+    border-bottom: 0.01rem solid #f0f5f7;
+    border-top: 0.01rem solid #f0f5f7;
+    position: relative;
+    padding: 0 0.2rem;
+
+}
+.factor span{
+    font-size: 0.24rem;
+    letter-spacing: 0.014rem;
+    color: #41b2fc;
+    line-height: 0.76rem;
+    display: inline-block;
+}
+.factor-c{
+    margin: 0 0.8rem;
+}
+.factor span::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(54, 214, 129, 0.43);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0.35rem;
+    margin-left: -0.1rem;
+}
+.comment{
+    height: 6.92rem;
+    background: burlywood;
+    margin: 0 0.2rem;
+}
+
+
+
+.evaluate{
+    display: flex;
+    justify-content: space-between;
+    height: 1.08rem;
+    align-items: center;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+
+.evaluate span p:nth-child(1) {
+    font-size: 0.32rem;
+    letter-spacing: 0.02rem;
+    color: #41b2fc;
+    display: inline-block;
+    padding-left: 0.2rem;
+    position: relative;
+}
+.evaluate span p:first-child:before{
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.18rem;
+}
+.evaluate span p:nth-child(2) {
+    font-size: 0.32rem;
+    letter-spacing: 0.02rem;
+    color: #4f5b64;
+    display: inline-block;
+}
+.evaluate span:nth-child(2){
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+}
+.evaluate  .iconfont{
+    display: inline-block;
+    font-size: 0.22rem;
+}
+.evaluate .dier p:first-child{
+    color:#35db82;
+}
+.evaluate .dier p:first-child:before{
+    background:#35db82 ;
+}
+
+/*评价详情*/
+.yonghu{
+    height: 2.1rem;
+    display: flex;
+}
+.imgback {
+    width: 0.85rem;
+    height: 2.1rem;
+rgba(223, 223, 223, 0.43);
+    border: solid 0.04rem #fefefe;
+    margin-left: 0.2rem;
+}
+.imgback img{
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+}
+.command{
+    display: flex;
+    flex-direction: column;
+    border-bottom: rgba(216, 223, 227,0.3) 0.01rem solid;
+    height: 2.1rem;
+    flex-grow: 1;
+    overflow: hidden;
+    padding: 0 0.22rem;
+}
+.command span p{
+    float: left;
+}
+.command b.date{
+    float: right;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #9ed5ff;
+}
+.command span h2{
+    width: 1.28rem;
+    height: 0.19rem;
+    position: relative;
+    float: left;
+    margin-left: 0.4rem;
+}
+.command div{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.command span h2 img{
+
+    width: 1.28rem;
+    height: 0.19rem;
+    float: left;
+}
+.command span:first-child{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #cfcfcf;
+}
+.command span:nth-child(2){
+    margin-top: 0.23rem;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.command span:nth-child(3){
+    margin-top: 0.18em;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.command img{
+    width: 1.8rem;
+    height: 1.01rem;
+}
+/*商品列表*/
+.liebiao{
+    padding: 0 0.22rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+.liebiao li{
+
+    width: 2.24rem;
+    height: 2.81rem;
+    padding: 0 0.15rem;
+    box-sizing: border-box;
+
+}
+.back{
+    height: 2.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.liebiao li img{
+    width: 1.37rem;
+    height: 1.37rem;
+}
+.liebiao li p:first-of-type{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.liebiao li p:nth-of-type(2){
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fbb548;
+}
+/*底部的设计*/
+.bottom{
+    height: 0.96rem;
+    width: 100%;
+    padding: 0.22rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+.bottom ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top:0.23rem ;
+}
+.bottom li img {
+    height: 0.5rem;
+    width: 0.5rem;
+}
+.bottom li p{
+    width: 1.96rem;
+    height: 0.6rem;
+    color: white;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+}
+
+

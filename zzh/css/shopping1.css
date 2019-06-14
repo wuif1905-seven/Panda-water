@@ -1,0 +1,224 @@
+@import "base.css";
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    margin-bottom: 0.25rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header li .iconfont{
+    color: #4ebbfe;
+    font-size: 0.6rem;
+}
+header li i{
+    width: 0.66rem;
+    height: 0.88rem;
+    display: block;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    background: #fbfeff;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    margin-top: 1.6rem;
+    display: block;
+}
+.page .ground{
+    width: 100%;
+    height: 1.74rem;
+    background:#fbfeff;
+    position: absolute;
+    top: 0.86rem;
+}
+.circle{
+    float: left;
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #37e06f;
+    border-radius: 50%;
+    margin: 0.8rem 0.1rem 0 0;
+}
+.circle-c{
+    float: left;
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #e7f6ff;
+    border-radius: 50%;
+    margin: 0.8rem 0.1rem 0 0;
+}
+.page > ul > li{
+    width: 100%;
+    height: 3.43rem;
+    background: #fbfeff;
+    border-bottom: 0.02rem solid rgba(0,0,1,0.05);
+    position: relative;
+}
+.page > ul > li .ground > a{
+    width: 1.74rem;
+    height: 1.74rem;
+    background: #fbfeff;
+    display: block;
+    float: left;
+    margin-right: 0.2rem;
+}
+.page > ul > li > .ground > a > img{
+    width: 1.74rem;
+    height: 1.74rem;
+    background: #fbfeff;
+    float: left;
+}
+.page > ul > li > .ground > .goods{
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    display: inline-block;
+    margin: 0.45rem 0 0.2rem 0;
+}
+.page > ul > li > .ground > .price-1{
+    font-size: 0.26rem;
+    color: #8e9397;
+    opacity: 0.8;
+    display: block;
+}
+.we{
+    float: right;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+}
+.we img{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+.we p{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    padding: 0 0.05rem;
+}
+footer {
+    width: 100%;
+    height: 1.08rem;
+    background: #f1faff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.02rem 0.24rem;
+    box-sizing: border-box;
+}
+footer > span{
+
+}
+.total-t{
+    font-size: 0.24rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    letter-spacing: 0.13rem;
+}
+.price{
+    font-size: 0.36rem;
+    color: #36a8fe;
+}
+.carriage{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+.discount{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    margin-left: 0.25rem;
+}
+.total{
+    width: 3.8rem;
+    height: 0.6rem;
+    background: #f1faff;
+    position: absolute;
+    bottom: 0.22rem;
+    right: 0.24rem;
+}
+.total > a{
+    width: 3.8rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.6rem;
+}
+.space{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.bag{
+    width: 100%;
+    height: auto;
+    background: #fbfeff;
+}
+.bag > p > img{
+    width: 3.8rem;
+    height: 2.56rem;
+    margin: 3.17rem auto 0 auto;
+}
+.article > span{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.35rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    margin: 0.52rem 0;
+}
+.go{
+    width: 1.96rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0px 4px 20px 0px
+    rgba(55, 223, 116, 0.75);
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.go > p{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.6rem;
+}
