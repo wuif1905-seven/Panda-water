@@ -19,7 +19,7 @@ window.addEventListener("load",function () {
             id:4, herf:'service-info.html',src:'./image/shuilongtou.png',name:'高端水龙头',type:'ECC01-001Lw',info:'商品规格潜水艇高端龙头',price:'60',number:'1',statusInfo:'待评价',blue:'去退款',green:'立即评价',blueHerf:'apply-drawback.html',greenHerf:'appraise.html',status:'appraise'
         },
         {
-            id:5, herf:'service-info.html',src:'./image/shuilongtou.png',name:'高端水龙头',type:'ECC01-001Lw',info:'商品规格潜水艇高端龙头',price:'60',number:'1',statusInfo:'售后服务',blue:'联系客服',green:'查看详情',blueHerf:'',greenHerf:'drawBack-info.html',status:'after'
+            id:5, herf:'service-info.html',src:'./image/shuilongtou.png',name:'高端水龙头',type:'ECC01-001Lw',info:'商品规格潜水艇高端龙头',price:'60',number:'1',statusInfo:'售后服务',blue:'联系客服',green:'查看详情',blueHerf:'',greenHerf:'drawback-info.html',status:'after'
         },
 
     ]
